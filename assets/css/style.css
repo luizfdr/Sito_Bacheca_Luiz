@@ -4,70 +4,79 @@ body{
     background-color: var(--color-cream-white);
 }
 
-.header-main{
-    background-color: var(--color-wine-purple);
-    padding-bottom: 0.2rem;
-}
+/*Header stuff*/
 
+    .header-main{
+        background-color: var(--color-wine-purple);
+        padding-bottom: 0.2rem;
 
-a{
-    color: var(--color-cream-white);
-    text-decoration: none;
-}
-
-.header-top-row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header-top-logo{
-    height: 5rem;
-    margin: 1rem;
-}
-
-.header-top-logo > img{
-    height: 100%;
-    width: 100%;
-}
-
-.header-bottom-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.menu-toggle-mobile{
-    display: none;
-}
-
-.navigation-menu-buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 60%;
-}
-
-.menu-button-item{
-    transition: 400ms;
-    border-radius: 5px;
-    padding: 0.5rem;
-}
-
-.menu-button-item:hover{
-    transition: 400ms;
-    cursor: pointer;
-    background-color: #530137;
-}
-
-.lang-switch-button{
-    width: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    a{
-        width: 100%;
-        height: 100%;
-        text-align: center;
+        a{
+            color: var(--color-cream-white);
+            text-decoration: none;
+        }
     }
+
+    .header-top-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-top-logo{
+        height: 5rem;
+        margin: 1rem;
+    }
+
+    .header-top-logo > img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .header-bottom-row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu-toggle-mobile{
+        display: none;
+    }
+
+    .navigation-menu-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 60%;
+    }
+
+    .menu-button-item{
+        transition: 400ms;
+        border-radius: 5px;
+        padding: 0.5rem;
+    }
+
+    .menu-button-item:hover{
+        transition: 400ms;
+        cursor: pointer;
+        background-color: #530137;
+    }
+
+    .lang-switch-button{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+    }
+
+/* Fine header*/
+
+/*main-div-home*/
+
+.main-content-div{
+    padding: 1rem;
 }
