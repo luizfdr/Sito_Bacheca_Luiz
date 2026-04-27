@@ -1,27 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Tenuta Chevalier - Artisan organic winery in the heart of Valpolicella Classica">
     <meta name="author" content="Mattia Faccin">
-
     <title>Tenuta Chevalier</title>
-
-    <!-- Carica il CSS -->
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/colors.css">
-
-    <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-
-    <!-- Carica il javascript -->
-    <script src="assets/js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="../assets/js/main.js" defer></script>
 </head>
 <body>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="container">
+        <a href="home.html" class="nav-logo">
+            <span>Tenuta Chevalier</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="company.html">Company</a></li>
+            <li><a href="wines.html">Wines</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+        <button class="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</nav>
+
+<div class="mobile-overlay"></div>
+<div class="mobile-nav">
+    <a href="home.html">Home</a>
+    <a href="company.html">Company</a>
+    <a href="wines.html">Wines</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="events.html">Events</a>
+    <a href="contacts.html">Contacts</a>
+</div>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-bg" style="background-image: url('../../templates_and_more/SITO%20INTERNET/Immagini/Panorama.PNG');"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <span class="section-label">Valpolicella Classica</span>
+        <h1>Tenuta Chevalier</h1>
+        <p>"The charm of a very high quality wine is the relationship that is created between what is found in the glass, and the person who relies on their senses to understand it"</p>
+        <a href="wines.html" class="btn btn-primary">Discover Our Wines</a>
+    </div>
+</section>
+
+<!-- Estate Teaser -->
+<section class="section-padding bg-black">
+    <div class="container">
+        <div class="feature-block fade-in-up">
+            <div class="feature-img">
+                <img src="../../templates_and_more/SITO%20INTERNET/Immagini/PY2A0411-Modifica-4.jpg" alt="Tenuta Chevalier Estate">
+            </div>
+            <div class="feature-text">
+                <span class="section-label">Our Estate</span>
+                <h2>The Heart of Valpolicella</h2>
+                <div class="gold-divider-left"></div>
+                <p>Tenuta Chevalier is a unique and artisanal reality located in the Valpolicella Classica, in the municipalities of Marano and Negrar. We own 3 hectares of our own vineyards, all organic since 2009.</p>
+                <p>Through the knowledge of <strong>Dr. Paolo Zardini</strong>, agronomist and oenologist, owner of Tenuta Chevalier, the company is moving towards a zero impact management system, sinking its vision into the study area of biodynamic and ecological cultivation.</p>
+                <a href="company.html" class="btn btn-outline" style="margin-top:1rem;">Our Story</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Wines -->
+<section class="section-padding bg-anthrax">
+    <div class="container">
+        <div class="section-header fade-in-up">
+            <span class="section-label">Selection</span>
+            <h2>Our Wines</h2>
+            <p>Discover the soul of Valpolicella in every bottle</p>
+        </div>
+        <div class="grid grid-3 gap-3">
+            <div class="card wine-card fade-in-up">
+                <div class="card-img-wrap">
+                    <img src="../../templates_and_more/SITO%20INTERNET/Immagini/AmaroneClassico.jpeg" alt="Amarone della Valpolicella Classico" class="card-img">
+                </div>
+                <div class="card-body">
+                    <div class="wine-meta">
+                        <span class="wine-tag">DOCG</span>
+                        <span class="wine-tag">Red</span>
+                    </div>
+                    <h3>Amarone della Valpolicella Classico</h3>
+                    <p>The crown jewel of Valpolicella — a rich, complex wine born from tradition and patience.</p>
+                    <a href="wines.html" class="btn btn-outline" style="margin-top:0.5rem;">Learn More</a>
+                </div>
+            </div>
+            <div class="card wine-card fade-in-up">
+                <div class="card-img-wrap">
+                    <img src="../../templates_and_more/SITO%20INTERNET/Immagini/RipassoValpollicellaClassicoSuperiore.jpeg" alt="Valpolicella Classico Superiore" class="card-img">
+                </div>
+                <div class="card-body">
+                    <div class="wine-meta">
+                        <span class="wine-tag">DOC</span>
+                        <span class="wine-tag">Superiore</span>
+                    </div>
+                    <h3>Valpolicella Classico Superiore</h3>
+                    <p>Selected grapes, ruby color, and a refined harmonious flavor — an elegant classic.</p>
+                    <a href="wines.html" class="btn btn-outline" style="margin-top:0.5rem;">Learn More</a>
+                </div>
+            </div>
+            <div class="card wine-card fade-in-up">
+                <div class="card-img-wrap">
+                    <img src="../../templates_and_more/SITO%20INTERNET/Immagini/ReciotoFront.jpeg" alt="Passito Bianco Pensiero" class="card-img">
+                </div>
+                <div class="card-body">
+                    <div class="wine-meta">
+                        <span class="wine-tag">IGT</span>
+                        <span class="wine-tag">Sweet</span>
+                    </div>
+                    <h3>Passito Bianco "Pensiero"</h3>
+                    <p>A golden, velvety dessert wine with honeyed notes — a meditation in liquid form.</p>
+                    <a href="wines.html" class="btn btn-outline" style="margin-top:0.5rem;">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Philosophy -->
+<section class="section-padding bg-black">
+    <div class="container text-center" style="max-width: 800px;">
+        <span class="section-label fade-in-up">Philosophy</span>
+        <h2 class="fade-in-up">Crafted with Passion</h2>
+        <div class="gold-divider fade-in-up"></div>
+        <p class="quote fade-in-up" style="border-left: none; padding-left: 0; text-align: center; font-size: 1.3rem;">
+            "The charm of a very high quality wine is the relationship that is created between what is found in the glass, and the person who relies on their senses to understand it; giving rise to an intimate and personal relationship."
+        </p>
+        <p class="fade-in-up">Knowing, touching, letting yourself be accompanied and experiencing an emotion: this is what we offer you here at the Chevalier Estate.</p>
+    </div>
+</section>
+
+<!-- Visit CTA -->
+<section class="section-padding bg-anthrax">
+    <div class="container feature-block fade-in-up">
+        <div class="feature-text" style="order: 2;">
+            <span class="section-label">Experience</span>
+            <h2>Visit the Estate</h2>
+            <div class="gold-divider-left"></div>
+            <p>Come and discover our pearls of historic Valpolicella wine and get in tune with the unique atmosphere of our company. Walk through the vineyards, explore the cellar, and savor the fruits of our labor.</p>
+            <ul style="color: var(--color-text-muted); margin-bottom: 1.5rem; padding-left: 1.5rem;">
+                <li>Guided vineyard and cellar tours</li>
+                <li>Guided tastings of our complete collection</li>
+                <li>Seasonal events and harvest experiences</li>
+            </ul>
+            <a href="contacts.html" class="btn btn-primary">Plan Your Visit</a>
+        </div>
+        <div class="feature-img">
+            <img src="../../templates_and_more/SITO%20INTERNET/Immagini/PY2A0411-Modifica-6.jpg" alt="Tasting at Tenuta Chevalier">
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h4 style="font-size: 1.5rem; margin-bottom: 1rem;">Tenuta Chevalier</h4>
+                <p>Artisanal wines from the heart of Valpolicella Classica. Organic, authentic, unforgettable.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="company.html">Company</a></li>
+                    <li><a href="wines.html">Wines</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Visit</h4>
+                <ul>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tenuta Chevalier. All rights reserved.</p>
+            <p>Crafted with passion in Valpolicella Classica</p>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
+
