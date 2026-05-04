@@ -176,9 +176,39 @@ p {
 }
 
 .nav-links {
-    display: none;
-    list-style: none;
-    gap: 2rem;
+        display: none;
+        list-style: none;
+        gap: 2rem;
+    }
+
+.lang-toggle {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 4px;
+}
+
+.lang-toggle::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: var(--color-main-gold);
+    transition: width var(--transition-medium);
+}
+
+.lang-toggle:hover::after,
+.lang-toggle.active::after {
+    width: 100%;
+}
+
+.lang-toggle:hover,
+.lang-toggle.active {
+    color: var(--color-main-gold);
 }
 
 .nav-links a {
